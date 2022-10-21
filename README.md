@@ -21,3 +21,6 @@ Keep in mind, ros2doctor is not a debug tool; it won’t help with errors in our
 In this tutorial, I learned the structure of an action definition. I also learned how to correctly build a new action interface using CMakeLists.txt and package.xml, and how to verify a successful build.
 
 There is a picture of it by the name CreatingAction.png above
+
+## Creating an action
+In this tutorial, I put together a Python action server and action client line by line, and configured them to exchange goals, feedback, and results
