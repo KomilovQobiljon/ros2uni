@@ -11,3 +11,7 @@ I created two nodes to request and respond to data over a service. I added their
 
 ## Using parameters in python class
 I created a node with a custom parameter, that can be set either from a launch file or the command line. I added the dependencies, executables, and a launch file to the package configuration files so that you could build and run them, and see the parameter in action.
+
+## Using ros2doctor to identify issues
+ros2doctor will inform us of problems in our ROS 2 setup and running systems. We can get a deeper look at information behind those warnings by using the --report argument.
+Keep in mind, ros2doctor is not a debug tool; it won’t help with errors in our code or on the implementation side of our system.
