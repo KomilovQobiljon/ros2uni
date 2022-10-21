@@ -14,4 +14,10 @@ I created a node with a custom parameter, that can be set either from a launch f
 
 ## Using ros2doctor to identify issues
 ros2doctor will inform us of problems in our ROS 2 setup and running systems. We can get a deeper look at information behind those warnings by using the --report argument.
+
 Keep in mind, ros2doctor is not a debug tool; it won’t help with errors in our code or on the implementation side of our system.
+
+## Creating an action
+In this tutorial, I learned the structure of an action definition. I also learned how to correctly build a new action interface using CMakeLists.txt and package.xml, and how to verify a successful build.
+
+There is a picture of it by the name CreatingAction.png above
